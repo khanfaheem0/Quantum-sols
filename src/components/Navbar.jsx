@@ -3,6 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Sparkles } from 'lucide-react';
 import './Navbar.css';
 
+import logo from '../assets/logo.png';
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
@@ -19,7 +21,7 @@ const Navbar = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
         { name: 'About', path: '/about' },
-        { name: 'Work', path: '/work' },
+        { name: 'Services', path: '/services' },
         { name: 'Contact', path: '/contact' },
     ];
 
@@ -27,8 +29,8 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container navbar-content">
                 <Link to="/" className="logo">
-                    <Sparkles className="logo-icon" />
-                    <span>AGENCY</span>
+                    <img src={logo} alt="Quantum Tech AI" className="logo-image" style={{ height: '85px', width: 'auto' }} />
+                    <span>QUANTUM TECH AI</span>
                 </Link>
 
                 {/* Desktop Menu */}

@@ -3,9 +3,10 @@ import { Linkedin, Mail, ShieldCheck } from 'lucide-react';
 import './Team.css';
 
 // Import images
-import faheemImg from '../assets/team/faheem.jpg';
+import faheemImg from '../assets/team/faheem.jpeg';
 import kamranImg from '../assets/team/kamran.jpg';
-import burhaanImg from '../assets/team/burhaan.jpg';
+import burhaanImg from '../assets/team/burhaan.jpeg';
+import shafatImg from '../assets/team/syed_shafat.jpeg';
 
 const Team = () => {
     const team = [
@@ -31,7 +32,7 @@ const Team = () => {
             name: 'Syed Shafat',
             role: 'Head of Operations & Delivery',
             focus: 'Quality Assurance, Client Onboarding',
-            img: null // Placeholder handled in render
+            img: shafatImg
         }
     ];
 

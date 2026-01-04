@@ -103,7 +103,7 @@ const About = () => {
                     <div className="uplink-body">
                         <div className="uplink-row">
                             <span className="label">COMM_CHANNEL_01:</span>
-                            <a href="mailto:faheemfidakhan77@gmail.com" className="value email">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=faheemk0077@gmail.com" target="_blank" rel="noopener noreferrer" className="value email">
                                 faheemk0077@gmail.com
                             </a>
                         </div>
