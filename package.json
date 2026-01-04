@@ -2,21 +2,24 @@
   "name": "quantum-tech-solutions",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://khanfaheem0.github.io/Quantum-sols/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "chart.js": "^4.4.7",
+    "framer-motion": "^11.16.0",
     "lucide-react": "^0.473.0",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.3.0",
-    "chart.js": "^4.4.7",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.1.1",
-    "framer-motion": "^11.16.0"
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -27,6 +30,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "vite": "^6.0.5"
   }
