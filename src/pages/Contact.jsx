@@ -49,7 +49,7 @@ const Contact = () => {
                             <label>Which service business are you in?</label>
                             <input
                                 type="text"
-                                placeholder="e.g., Plumbing, HVAC, Law Firm"
+                                placeholder="e.g., Plumbing, HVAC, Electrical..."
                                 className="form-input"
                                 value={formData.serviceType}
                                 onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
@@ -75,7 +75,7 @@ const Contact = () => {
                     <div className="info-card glass-panel">
                         <Mail className="info-icon" />
                         <h3>Email Us</h3>
-                        <p>faheemfidakhan77@gmail.com</p>
+                        <p>faheemk0077@gmail.com</p>
                     </div>
                     <div className="info-card glass-panel">
                         <Phone className="info-icon" />
