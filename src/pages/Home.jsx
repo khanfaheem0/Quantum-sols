@@ -26,8 +26,8 @@ const Home = () => {
                         <Link to="/contact" className="btn-primary">
                             Start Project <ArrowRight size={18} />
                         </Link>
-                        <Link to="/work" className="btn-secondary">
-                            View Work
+                        <Link to="/services" className="btn-secondary">
+                            View Services
                         </Link>
                     </div>
                 </div>
