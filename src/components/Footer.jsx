@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -7,17 +8,19 @@ const Footer = () => {
         <footer className="footer">
             <div className="container footer-content">
                 <div className="footer-section brand">
-                    <h3>QUANTUM TECH AI</h3>
+                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <h3>QUANTUM TECH AI</h3>
+                    </Link>
                     <p>Empowering businesses with the future of AI automation and digital presence.</p>
                 </div>
 
                 <div className="footer-section links">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/services">Services</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
 

@@ -7,6 +7,8 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   React.useEffect(() => {
     if (!sessionStorage.getItem('sessionStart')) {
@@ -16,6 +18,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="app-wrapper" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Navbar />
         <main style={{ flex: 1 }}>
