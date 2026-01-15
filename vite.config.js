@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Quantum-sols/', // MUST match your Repo name exactly
+  base: '/Quantumtechai/', // MUST match your Repo name exactly
 })
